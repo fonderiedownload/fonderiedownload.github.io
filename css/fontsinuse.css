@@ -137,30 +137,6 @@ button:hover{
   font-size: 1.5vw;
 }
 
-#button-all{
-  font-family: 'Zara-Regular';
-}
-
-#button-credible{
-  font-family: 'Credible-Regular';
-}
-
-#button-garamondt{
-  font-family: 'Garamondt-Regular';
-}
-
-#button-quarantype{
-  font-family: 'Quarantype-Regular';
-}
-
-#button-tribalium{
-  font-family: 'Tribalium-Regular';
-}
-
-#button-zara{
-  font-family: 'Zara-Regular';
-}
-
 #common-template{
   z-index: unset;
 }
@@ -219,6 +195,11 @@ body{
   font-size: 0.9vw;
 }
 
+[data-font="Beast"]{
+  font-family:'Beast-Regular';
+  font-size: 2vw;
+}
+
 [data-font="Crédible"]{
   font-family:'Credible-Regular';
 }
@@ -266,9 +247,9 @@ body{
   #gallery > .grid-col--3 { margin-right: 43px }
   #textheader { font-size: 2.5vw; line-height: 3.3vw }
   #tags { flex-wrap: wrap }
-  .button-tags { flex: 0 0 27%; font-size: 2vw }
+  .button-tags { flex: 0 0 23%; font-size: 2vw }
+  [data-font="4 fromages"]{ font-size: 1.6vw;}
   .button-tags:first-child { margin-bottom: 21.5px }
-  .button-tags:last-child { margin-top: 21.5px }
   #slidedeck-flex-container > div { flex: 2 0 0 }
   #slidedeck-flex-container > div:first-child, #slidedeck-flex-container > div:last-child { display: flex; flex: 1 0 0; font-size: 80px }
   #slidedeck-flex-container div:nth-child(2) div { font-size: 2vw; line-height: 2.5vw;}
@@ -281,6 +262,8 @@ body{
   #textheader{font-size: 3.5vw; line-height: 4.3vw}
   #slidedeck-flex-container > div:first-child, #slidedeck-flex-container > div:last-child { font-size: 60px }
   #slidedeck-flex-container div:nth-child(2) div { font-size: 2.5vw; line-height: 3.5vw;}
+  .button-tags { flex: 0 0 30%; font-size: 2vw }
+
 }
 
 /* 1 column */
